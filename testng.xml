@@ -4,8 +4,10 @@
 
 	<groups>
 		<run>
-			<include name="Chrome" />
+			<include name="start" />
+			<include name="Edge" />
 			<include name="Firefox" />
+			<include name="end" />
 		</run>
 	</groups>
 
@@ -14,11 +16,12 @@
 			<class name="app.Runner" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="Regression 2">
 
+	<test name="Regression 2">
 		<classes>
 			<class name="app.Runner" />
 		</classes>
 	</test> <!-- Test -->
+
 
 </suite> <!-- Suite -->
