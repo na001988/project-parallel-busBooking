@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite_Grid_v3.141" parallel="methods" thread-count="4">
+<suite name="Suite_Grid_v3.141" parallel="tests" thread-count="5">
 
 	<groups>
 		<run>
@@ -13,15 +13,38 @@
 
 	<test name="Regression 1">
 		<classes>
-			<class name="app.Runner" />
+			<class name="app.Grid_Runner" />
 		</classes>
 	</test> <!-- Test -->
 
 	<test name="Regression 2">
 		<classes>
-			<class name="app.Runner" />
+			<class name="app.Grid_Runner" />
 		</classes>
 	</test> <!-- Test -->
 
+	<test name="Regression 3">
+		<classes>
+			<class name="app.Grid_Runner" />
+		</classes>
+	</test> <!-- Test -->	
+
+	<test name="Regression 4">
+		<classes>
+			<class name="app.Grid_Runner" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Regression 5">
+		<classes>
+			<class name="app.Grid_Runner" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Regression 6">
+		<classes>
+			<class name="app.Grid_Runner" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
