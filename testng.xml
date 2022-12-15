@@ -27,24 +27,6 @@
 		<classes>
 			<class name="app.Grid_Runner" />
 		</classes>
-	</test> <!-- Test -->	
-
-	<test name="Regression 4">
-		<classes>
-			<class name="app.Grid_Runner" />
-		</classes>
 	</test> <!-- Test -->
-
-	<test name="Regression 5">
-		<classes>
-			<class name="app.Grid_Runner" />
-		</classes>
-	</test> <!-- Test -->
-
-	<test name="Regression 6">
-		<classes>
-			<class name="app.Grid_Runner" />
-		</classes>
-	</test> <!-- Test -->
-
+	
 </suite> <!-- Suite -->

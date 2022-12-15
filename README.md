@@ -8,4 +8,4 @@ java -jar selenium-server-standalone-3.141.59.jar -role hub -timeout 30 -browser
 
 java -jar -Dwebdriver.chrome.driver="chromedriver.exe" selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register/ -browser "browserName=firefox,version=latest,maxInstances=7,seleniumProtocol=WebDriver" -browser "browserName=chrome,version=latest,maxInstances=7,seleniumProtocol=WebDriver"
 
-java -jar -Dwebdriver.firefox.driver="firefox.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register/ -browser "browserName=firefox,version=latest,maxInstances=7,seleniumProtocol=WebDriver" -browser "browserName=chrome,version=latest,maxInstances=7,seleniumProtocol=WebDriver"
+java -jar -Dwebdriver.firefox.driver="firefox.exe" selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register/ -browser "browserName=firefox,version=latest,maxInstances=7,seleniumProtocol=WebDriver" -browser "browserName=chrome,version=latest,maxInstances=7,seleniumProtocol=WebDriver"
